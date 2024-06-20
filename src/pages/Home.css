@@ -1,0 +1,202 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Top banner */
+.top-banner {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.top-banner img {
+    height: 50px;
+    animation: fly 3s ease-in-out 3;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px); /* Ajusta esta distancia según sea necesario */
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url('/assets/img/colibri-volando.webp'); /* Asegúrate de tener una imagen jumbotron en esta ruta */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+.column p {
+    line-height: 1.6;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: calc(33.333% - 10px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividad */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+
+    .top-banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-banner img {
+        margin-top: 10px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2.5em;
+    }
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        margin: 10px 0;
+    }
+
+    .gallery img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .top-banner {
+        text-align: center;
+    }
+
+    .jumbotron {
+        height: 300px;
+    }
+
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .gallery img {
+        width: calc(100% - 10px);
+    }
+}

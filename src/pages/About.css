@@ -1,0 +1,47 @@
+
+/* Jumbotron */
+.jumbotron-about {
+    background-image: url('/assets/img/ave-persona.jpg'); /* Asegúrate de tener una imagen jumbotron en esta ruta */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron-about h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #1a1a1a;
+    text-shadow: 0px 1px 2px #ffffff;
+}
+
+
+.gallery-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+.gallery-about img {
+    width: calc(33.333% - 10px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 300ms;
+    filter: grayscale(1);
+
+}
+
+.galeria-titulo {
+    text-align: center;
+}
+
+.gallery-about img:hover {
+    transform: scale(1.01);
+    filter: grayscale(0);
+}
+

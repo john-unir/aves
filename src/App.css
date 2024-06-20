@@ -1,0 +1,7 @@
+.top-banner {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}

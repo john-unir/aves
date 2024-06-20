@@ -1,0 +1,19 @@
+.img-perfil {
+    margin-top: 20px;
+    max-width: 200px;
+    border-radius: 20px;
+}
+.columnas {
+    margin: 0 0;
+    padding: 20px;
+}
+
+.contenedor-contacto {
+    margin-bottom: 0 !important;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+
+}
