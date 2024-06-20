@@ -34,21 +34,21 @@ const About = () => {
 
             </div>
             <div className="gallery-about">
-                <img src="/assets/img/azulejo.jpg" alt="Azulejo"/>
-                <img src="/assets/img/gymnomystax_mexicanus.jpg" alt="gymnomystax mexicanus"/>
-                <img src="/assets/img/mirla.jpeg" alt="mirla"/>
+                <img src="/aves/assets/img/azulejo.jpg" alt="Azulejo"/>
+                <img src="/aves/assets/img/gymnomystax_mexicanus.jpg" alt="gymnomystax mexicanus"/>
+                <img src="/aves/assets/img/mirla.jpeg" alt="mirla"/>
 
-                <img src="/assets/img/periquito_de_anteojos.JPG" alt="periquito de anteojos"/>
-                <img src="/assets/img/siriri.jpg" alt="siriri"/>
-                <img src="/assets/img/buho.jpeg" alt="Buho"/>
-                <img src="/assets/img/tangara_palmera.jpg" alt="tangara palmera"/>
-                <img src="/assets/img/tingua-azul.jpeg" alt="tingua azul"/>
-                <img src="/assets/img/toche_pico_de_plata.webp" alt="toche pico de plata"/>
-                <img src="/assets/img/tordo_llenero.jpeg" alt="tordo llanero"/>
-                <img src="/assets/img/tingua-bogotana.jpeg" alt="tingua bogotana"/>
-                <img src="/assets/img/gorrion.jpg" alt="Gorrion"/>
-                <img src="/assets/img/siriri-2.jpg" alt="siriri"/>
-                <img src="/assets/img/colibri.jpeg" alt="Colibri"/>
+                <img src="/aves/assets/img/periquito_de_anteojos.JPG" alt="periquito de anteojos"/>
+                <img src="/aves/assets/img/siriri.jpg" alt="siriri"/>
+                <img src="/aves/assets/img/buho.jpeg" alt="Buho"/>
+                <img src="/aves/assets/img/tangara_palmera.jpg" alt="tangara palmera"/>
+                <img src="/aves/assets/img/tingua-azul.jpeg" alt="tingua azul"/>
+                <img src="/aves/assets/img/toche_pico_de_plata.webp" alt="toche pico de plata"/>
+                <img src="/aves/assets/img/tordo_llenero.jpeg" alt="tordo llanero"/>
+                <img src="/aves/assets/img/tingua-bogotana.jpeg" alt="tingua bogotana"/>
+                <img src="/aves/assets/img/gorrion.jpg" alt="Gorrion"/>
+                <img src="/aves/assets/img/siriri-2.jpg" alt="siriri"/>
+                <img src="/aves/assets/img/colibri.jpeg" alt="Colibri"/>
             </div>
             <footer className="footer">
                 <p>&copy; 2024 Aves de Bogotá. Todos los derechos reservados.</p>

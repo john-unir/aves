@@ -40,15 +40,14 @@ const Home = () => {
                 </div>
             </div>
             <div className="gallery">
-                <img src="/assets/img/gorrion.jpg" alt="Gorrion"/>
-                <img src="/assets/img/buho.jpeg" alt="Buho"/>
-                <img src="/assets/img/colibri.jpeg" alt="Colibri"/>
+                <img src="/aves/assets/img/gorrion.jpg" alt="Gorrion"/>
+                <img src="/aves/assets/img/buho.jpeg" alt="Buho"/>
+                <img src="/aves/assets/img/colibri.jpeg" alt="Colibri"/>
             </div>
             <footer className="footer">
                 <p>&copy; 2024 Aves de Bogotá. Todos los derechos reservados.</p>
                 <p>By Mauricio Herrera</p>
                 <p>Estudiante UNIR</p>
-
             </footer>
         </div>
     );

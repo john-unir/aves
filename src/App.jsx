@@ -9,7 +9,7 @@ const App = () => {
     return (
         <div>
             <Link to={"/"} className="top-banner">
-                <img src="/assets/img/colibri_logo.png" alt="Logo"/>
+                <img src="/aves/assets/img/colibri_logo.png" alt="Logo"/>
                 <h3>Aves de Bogotá</h3>
             </Link>
 

@@ -9,7 +9,7 @@ const Contact = () => {
                 <div className="column">
                     <h4>¡Hola! Soy John Mauricio Herrera Díaz, músico y compositor, y educador interesado en el desarrollo web,
                         con un abanico de habilidades únicas y diversos intereses.</h4>
-                    <img className="img-perfil" src="/assets/img/mao.jpg" alt="Azulejo"/>
+                    <img className="img-perfil" src="/aves/assets/img/mao.jpg" alt="Azulejo"/>
 
                     <p>Mi sólida formación musical, como músico guitarrista y compositor de la universidad Nacional de
                         Colombia, y complementada con una maestría en educación de la Universidad de los Andes, me ha
